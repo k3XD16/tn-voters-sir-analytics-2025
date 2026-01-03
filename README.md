@@ -14,6 +14,7 @@ A comprehensive Power BI analytics dashboard analyzing the Tamil Nadu Electoral 
 
 - [Dashboard Glimpse](#-dashboard-glimpse)
 - [Overview](#-overview)
+- [Data Transformation](#-data-transformation)
 - [Key Features](#-key-features)
 - [Dashboard Pages](#-dashboard-pages)
 - [Project Structure](#-project-structure)
@@ -28,13 +29,11 @@ A comprehensive Power BI analytics dashboard analyzing the Tamil Nadu Electoral 
 
 ### Executive Overview
 
-<img src="assets/P1%20-%20Executive%20Overview.png" width="500">
+<img src="assets/P1%20-%20Executive%20Overview.png" width="700">
 
 ### District Drill-Down
 
-<img src="assets/P4%20-%20District%20Detail.png" width="500">
-
-
+<img src="assets/P4%20-%20District%20Detail.png" width="700">
 
 ---
 
@@ -51,6 +50,18 @@ This project analyzes the 2025 Tamil Nadu electoral roll revision, examining:
 **Geographic Scope:** 38 districts, 234 assembly constituencies, entire Tamil Nadu state
 
 ---
+## 🛠️ Data Transformation
+
+### Raw Data Sources
+
+<img src="assets/data-transform/SSR Jan 2025 raw.png" width="500">
+
+### Cleaned Data After Power Query ETL
+
+<img src="assets/data-transform/SSR Jan 2025 cleaned.png" width="500">
+
+The Power Query transformations were applied to clean and structure the data for analysis. It was attached as documentation in the `docs/power_query_steps.md` file.
+
 
 ## ✨ Key Features
 
