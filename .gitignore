@@ -1,0 +1,10 @@
+# Power BI temp files
+*.pbix.tmp
+*.pbit.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
