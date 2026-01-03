@@ -21,6 +21,7 @@ A comprehensive Power BI analytics dashboard analyzing the Tamil Nadu Electoral 
 - [Data Model](#-data-model)
 - [Key Metrics](#-key-metrics)
 - [Documentation](#-documentation)
+- [Contact & Support](#-contact--support)
 
 
 ## 📋 Dashboard Glimpse
@@ -93,9 +94,11 @@ This project analyzes the 2025 Tamil Nadu electoral roll revision, examining:
 ## 📊 Dashboard Pages
 
 ### Page 1: Executive Overview
+
 **What it does:** State-level summary with key metrics and district comparison
 
 **Visualizations:**
+
 - KPI Cards: SSR (64M), SIR (54M), Loss (-9.24M), Cleanup Impact (15.31%)
 - Stacked bar chart: Gender composition (SSR vs SIR)
 - Horizontal bar chart: Voter loss by district (top 6 impacted)
@@ -108,6 +111,7 @@ This project analyzes the 2025 Tamil Nadu electoral roll revision, examining:
 ---
 
 ### Page 2: Gender Analysis
+
 **What it does:** Examine gender representation changes and detect bias
 
 **Visualizations:**
@@ -121,6 +125,7 @@ This project analyzes the 2025 Tamil Nadu electoral roll revision, examining:
 ---
 
 ### Page 3: Cleanup Analysis
+
 **What it does:** Break down removal categories and identify cleanup patterns
 
 **Visualizations:**
@@ -134,9 +139,11 @@ This project analyzes the 2025 Tamil Nadu electoral roll revision, examining:
 ---
 
 ### Page 4: District Drill-Down
+
 **What it does:** Interactive AC-level analysis for deep investigation
 
 **Visualizations:**
+
 - Slicer: Select district to filter to all ACs
 - Clustered column chart: Voter counts (SSR vs SIR) for each AC
 - Data matrix: AC metrics (growth %, cleanup rate, cleanup intensity, rank)
